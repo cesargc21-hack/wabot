@@ -312,7 +312,15 @@ dappa.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Hallo @${num.split('@')[0]}\Selamat datang di group *${mdata.subject}* yang betah ya di sini`
+				teks = `*HOLA!* 🖖🏼 @${num.split('@')[0]}\
+BIENVENID@ A... 
+*${mdata.subject}* 
+──────────────
+·٠•●✨ ──────────────
+📌Por favor lee las reglas, estan en la
+  descripción del grupo y evita ser
+  eliminad@
+───────────── ✨●•٠·`
 				let buff = await getBuffer(ppimg)
 				dappa.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -4690,11 +4698,11 @@ break
 						if (isWelkom) return reply('*SUDAH AKTIF* !!!')
 						welkom.push(from)
 						fs.writeFileSync('./dapp/bot/welkom.json', JSON.stringify(welkom))
-						reply('❬ SUKSES ❭ Mengaktifkan fitur Welcome/Left di grub ini')
+						reply('❬ ÉXITO ❭ Se activo la función de bienvenida 🟢')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./dapp/bot/welkom.json', JSON.stringify(welkom))
-						reply('❬ SUKSES ❭ Menonaktifkan Welcome/Left di grub ini')
+						reply('❬ ÉXITO ❭ Se desactivo la función de bienvenida 🔴')
 					} else {
 						reply(ind.satukos())
 					}
