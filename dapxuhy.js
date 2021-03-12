@@ -307,9 +307,7 @@ dappa.on('group-participants-update', async (anu) => {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				try {
-					ppimg = await dappa.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)
-				} catch {
+				catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
 				teks = `*HOLA!* 🖖🏼 @${num.split('@')[0]}\
