@@ -3608,9 +3608,9 @@ break
 					const uangku = checkATMuser(sender)
                     wew = fs.readFileSync(`./dappauhuy/logo.jpg`)
                     dappaganz = `
-╔═════ ❰ *USER* ❱ ═══════
-║┣❥ *Nama* : ${pushname}
-║┣❥ *Nomer* : wa.me/${sender.split("@")[0]}
+╔═════ ❰ *USUARIO* ❱ ═══════
+║┣❥ *Nombre* : ${pushname}
+║┣❥ *Número* : wa.me/${sender.split("@")[0]}
 ║┣❥ *Uang mu* : Rp${uangku}
 ║┣❥ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ║┣❥ *Level* : ${getLevelingLevel(sender)}
@@ -3622,24 +3622,14 @@ break
 ║⧐ ⸨ *кєтιк ${prefix}info* ⸩
 ║▬▭▬▭▬▭▬▭▬▭
 ╚═════════════════════
-*YT* = _*${Yt}*_
-*IG* = _*${Ig}*_
-*GC* = _*${Gc}*_
 ══════════════════════
 *ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ᴍᴀꜱɪ ᴅᴀʟᴀᴍ ᴛᴀʜᴀᴘ ᴘᴇᴇʙᴀɪᴋᴀɴ!!*
 ══════════════════════
-╔════════════════════❍
-║▬▭▬▭▬▭▬▭▬▭
-║⧐ ⸨ *Owner : ${ownerName}* ⸩
-║⧐ ⸨ *Nomer : ${ownerNumber}* ⸩
-║▬▭▬▭▬▭▬▭▬▭
-╠════════════════════❍
-║┣❥ ingin sewa bot? *${prefix}sewabot*
 ╠═════════════════════
 ║> *_Menu DapBOT~_*
 ╠═════════════════════
 ║┏━━⊱ ❰ *MAKER MENU* ❱ ⊰━━❤︎
-║┣❥ *${prefix}sticker* (jika video max. 9det)
+║┣❥ *${prefix}sticker*
 ║┣❥ *${prefix}︎shadow*
 ║┣❥︎ *${prefix}cup*
 ║┣❥︎ *${prefix}cup1*
@@ -3726,13 +3716,10 @@ break
 ║┣❥ *${prefix}silktext*
 ║┣❥ *${prefix}makequote*
 ║┣❥ *${prefix}toimg*
-║┣❥ *${prefix}ocr*
 ║┣❥ *${prefix}galaxstyle*
 ║┣❥ *${prefix}jokerlogo*
 ║┣❥ *${prefix}toxic*
 ║┣❥ *${prefix}triggered*
-║┣❥ *${prefix}gtav*
-║┣❥ *${prefix}gay*
 ║┣❥ *${prefix}nigthbeach*
 ║┣❥ *${prefix}laptop*
 ║┣❥ *${prefix}linephoto*
@@ -3753,46 +3740,11 @@ break
 ║┣❥ *${prefix}imagetext*
 ║┣❥ *${prefix}greenneon*
 ║┣❥ *${prefix}metallogo*
-║┣━━⊱  ❰ *FUN MENU* ❱  ⊰━━━❤︎
-║┣❥︎ *${prefix}spamcall*
-║┣❥︎ *${prefix}spamtext*
-║┣❥ *${prefix}mining*
-║┣❥ *${prefix}playstore*
-║┣❥ *${prefix}bisakah*
-║┣❥ *${prefix}kapankah*
-║┣❥ *${prefix}apakah*
-║┣❥ *${prefix}seberapagay*
-║┣❥ *${prefix}rate*
-║┣❥ *${prefix}truth*
-║┣❥ *${prefix}dare*
-║┣❥ *${prefix}hobby*
-║┣❥ *${prefix}memeindo*
-║┣❥ *${prefix}darkjoke*
-║┣❥ *${prefix}cerpen*
-║┣❥ *${prefix}quotesimage*
-║┣❥ *${prefix}fitnah*
-║┣❥ *${prefix}pasangan*
-║┣❥ *${prefix}ntahlah*
-║┣❥ *${prefix}slap*
-║┣❥ *${prefix}hemkel*
-║┣❥ *${prefix}quotes2*
-║┣❥ *${prefix}katadoi*
-║┣❥ *${prefix}katakatadilan*
-║┣❥ *${prefix}qoutes*
-║┣❥ *${prefix}caklontong*
-║┣❥ *${prefix}family100*
-║┣❥ *${prefix}tebakin*
-║┣❥ *${prefix}kbbi*
-║┣❥ *${prefix}dadu*
-║┣❥ *${prefix}artinama*
 ║┣━━⊱  ❰ *ANIME MENU* ❱  ⊰━━━❤︎
 ║┣❥ *${prefix}animesaran*
-║┣❥ *${prefix}animesaran2*
-║┣❥ *${prefix}husbu2*
 ║┣❥ *${prefix}anime*
 ║┣❥ *${prefix}wallpaperanime*
 ║┣❥ *${prefix}trap* (udh work)
-║┣❥ *${prefix}baka2*
 ║┣❥ *${prefix}wallpapernime*
 ║┣❥ *${prefix}animefanart*
 ║┣❥ *${prefix}megumin*
@@ -3800,8 +3752,6 @@ break
 ║┣❥ *${prefix}baka*
 ║┣❥ *${prefix}eroyuri*
 ║┣❥ *${prefix}happy*
-║┣❥ *${prefix}dance*
-║┣❥ *${prefix}neko3*
 ║┣❥ *${prefix}smile*
 ║┣❥ *${prefix}wallpaper*
 ║┣❥ *${prefix}slapnime*
@@ -3810,25 +3760,16 @@ break
 ║┣❥ *${prefix}femdom*
 ║┣❥ *${prefix}waifukawai*
 ║┣❥ *${prefix}kuni*
-║┣❥ *${prefix}nsfwloli3*
 ║┣❥ *${prefix}kitsune*
-║┣❥ *${prefix}yuri*
-║┣❥ *${prefix}yaoi*
 ║┣❥ *${prefix}wancak*
 ║┣❥ *${prefix}quotesnime*
-║┣❥ *${prefix}waifu2*
 ║┣❥ *${prefix}bj* (udh work)
-║┣❥ *${prefix}ram*
-║┣❥ *${prefix}pictlolicon*
-║┣❥ *${prefix}pictneko*
 ║┣❥ *${prefix}testwaifu*
 ║┣❥ *${prefix}nsfw_avatar*
 ║┣❥ *${prefix}senku*
 ║┣❥ *${prefix}pictwaifu*
-║┣❥ *${prefix}kurumi2*
 ║┣❥ *${prefix}nakanomiku*
 ║┣❥ *${prefix}wibu*
-║┣❥ *${prefix}wibu2*
 ║┣❥ *${prefix}boruto*
 ║┣❥ *${prefix}rize*
 ║┣❥ *${prefix}kaneki*
@@ -3849,45 +3790,6 @@ break
 ║┣❥ *${prefix}touka*
 ║┣❥ *${prefix}rem*
 ║┣❥ *${prefix}chika*
-║┣━━⊱  ❰ *ISLAM MENU* ❱  ⊰━━━❤︎
-║┣❥ *${prefix}quran*
-║┣❥ *${prefix}listsurah*
-║┣━━⊱  ❰ *MEDIA MENU* ❱  ⊰━━━❤︎
-║┣❥ *${prefix}beritahoax*
-║┣❥ *${prefix}brainly*
-║┣❥ *${prefix}pinterest*
-║┣❥ *${prefix}husbu*
-║┣❥ *${prefix}waifu2*
-║┣❥ *${prefix}waifu*
-║┣❥ *${prefix}loli*
-║┣❥ *${prefix}loli2*
-║┣❥ *${prefix}neko*
-║┣❥ *${prefix}neko2*
-║┣❥ *${prefix}nekonime*
-║┣❥ *${prefix}randomanime*
-║┣❥ *${prefix}randomhusbu*
-║┣❥ *${prefix}randomcyberspace*
-║┣❥ *${prefix}randomexo*
-║┣❥ *${prefix}blackpink*
-║┣❥ *${prefix}randomgame*
-║┣❥ *${prefix}randommountain*
-║┣❥ *${prefix}randomloli*
-║┣❥ *${prefix}randomprogramer*
-║┣❥ *${prefix}meme*
-║┣❥ *${prefix}memeindo*
-║┣❥ *${prefix}tts*
-║┣❥ *${prefix}play*
-║┣❥ *${prefix}lirik*
-║┣❥ *${prefix}ssweb*
-║┣❥ *${prefix}map*
-║┣❥ *${prefix}stalkig*
-║┣❥ *${prefix}afk*
-║┣❥ *${prefix}unafk*
-║┣❥ *${prefix}asupan*
-║┣━━⊱  ❰ *LIMIT MENU* ❱  ⊰━━━❤︎
-║┣❥ *${prefix}limit*
-║┣❥ *${prefix}buylimit*
-║┣❥ *${prefix}dompet*
 ║┣━━⊱  ❰ *NSFW MENU* ❱  ⊰━━━❤︎
 ║┣❥ *${prefix}pokemon*
 ║┣❥ *${prefix}anjing*
@@ -3903,7 +3805,7 @@ break
 ║┣❥ *${prefix}nsfwwaifu*
 ║┣❥ *${prefix}ecchi*
 ║┣❥ *${prefix}nekopoi* <judul>
-║┣━━⊱  ❰ *GROUP MENU* ❱  ⊰━━━❤︎
+║┣━━⊱  ❰ *MENU DE GRUPO* ❱  ⊰━━━❤︎
 ║┣❥ *${prefix}hidetag*
 ║┣❥ *${prefix}del*
 ║┣❥ *${prefix}grouplist*
@@ -3924,7 +3826,7 @@ break
 ║┣❥ *${prefix}nsfw* [1/0]
 ║┣❥ *${prefix}simih* [1/0]
 ║┣❥ *${prefix}welcome* [1/0]
-║┣━━⊱  ❰ *OWNER MENU* ❱  ⊰━━━❤︎
+║┣━━⊱  ❰ *MENU DEL CREADOR* ❱  ⊰━━━❤︎
 ║┣❥ *${prefix}bc*
 ║┣❥ *${prefix}bcgc*
 ║┣❥ *${prefix}kickall* Mau Ngapain Tod? >:
