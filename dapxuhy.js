@@ -317,7 +317,7 @@ BIENVENID@ A...
   eliminad@
 ───────────── ✨●•٠·`
 				let buff = await getBuffer(ppimg)
-				dappa.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+				dappa.sendMessage(mdata.id, buff, MessageType.text, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
 				try {
@@ -325,9 +325,9 @@ BIENVENID@ A...
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Sayonara @${num.split('@')[0]}👋🍁`
+				teks = `*Adiós @${num.split('@')[0]} popó 💩`
 				let buff = await getBuffer(ppimg)
-				dappa.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+				dappa.sendMessage(mdata.id, buff, MessageType.text, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
 			console.log('Error : %s', color(e, 'red'))
